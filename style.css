@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+
+
+
+body {
+	width: 100%;
+	height: 100%;
+}
+body, body * {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.hd {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	line-height: 300px;
+	font-size: 150px;
+	font-family: McLaren;
+	text-align: center;
+	white-space: nowrap;
+	user-select: none;
+	color: #2d2d2d;
+}
+
+
+
+.wr {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 700px;
+	transform: translate(-50%,-50%);
+	border-radius: 20px;
+	background: #a8def7;
+	padding: 20px;
+}
+.wr .hd {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 100%;
+	text-decoration: none;
+	font-size: 40px;
+	line-height: 40px;
+	height: 40px;
+	text-decoration: none;
+	color: #6a9608;
+}
+.wr .dt {
+	width: 700px;
+	font-family: McLaren;
+	border-collapse: collapse;
+	margin-top: 40px;
+}
+.wr .dt tr {
+	padding: 0;
+	margin: 0;
+}
+.wr .dt .h th {
+	font-size: 20px;
+	user-select: none;
+	text-align: center;
+	border: solid 4px #3c3c3c;
+	border-top: none;
+	color: #f0853a;
+	padding-bottom: 4px;
+}
+.wr .dt tr td {
+	font-size: 15px;
+	text-align: center;
+	border-left: solid 4px #3c3c3c;
+	border-right: solid 4px #3c3c3c;
+}
+.wr .dt tr th:first-child, .dt tr td:first-child {
+	border-left: none;
+}
+.wr .dt tr th:last-child, .dt tr td:last-child {
+	border-right: none;
+}
+.wr .dt tr:last-child td {
+	padding-bottom: 2px;
+}
