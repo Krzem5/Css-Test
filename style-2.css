@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+
+
+
+body {
+	width: 100%;
+	height: 100%;
+}
+body, body * {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.bk {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 35px;
+	font-family: McLaren;
+	text-align: center;
+	user-select: none;
+	text-decoration: none;
+	color: #aae034;
+}
+
+
+
+.wr {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
